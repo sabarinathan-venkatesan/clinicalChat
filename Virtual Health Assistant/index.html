@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clinical Chat </title>
+  <!-- Linking Google Fonts For Icons -->
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="header">
+    <!-- Header Greetings -->
+     <div class="head" style="margin-top: 70px;">
+      <h1 class="tit" style="text-align: center; font-size: 50px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: rgb(147, 74, 74);margin-top: -50px;">Clinical Chat</h1>
+      
+      <p class="subtitle" style="margin-top: 0px;">How can I help you today?</p>
+      <center>
+      <!-- <img class="mce" src="MAHENDRA_COLLEGE_OF_ENGINEERING-removebg-preview.png" alt="" height="200px" width="200px" style="@media screen {
+        max-width: 600px;
+        min-width: 200px;
+      }"> -->
+      <!-- <strong style="@media screen {
+        max-width: 400px;
+      
+      } color: antiquewhite; ">A CHAT BOT BUILD BY DEPT. OF AI&DS</strong><br> -->
+
+      <!-- <img style="@media screen {
+        max-width: 600px;
+        
+      }  margin-top: 50px;" src="20240209_102956_0000-removebg-preview.png" alt="" width="200px" height="200px" > -->
+      </center>
+     </div>
+     
+
+    <!-- mce logo -->
+
+    <div class="mace-log">
+      
+    </div>
+
+
+    <!-- Suggestion list -->
+    <ul class="suggestion-list">
+      <li class="suggestion">
+        <h4 class="text">Give me a healthy food routine</h4>
+        <!-- <span class="icon material-symbols-rounded">draw</span> -->
+      </li>
+      <li class="suggestion">
+        <h4 class="text">How can you overcome a stressful mindset?</h4>
+        <!-- <span class="icon material-symbols-rounded">lightbulb</span> -->
+      </li>
+      <li class="suggestion">
+        <h4 class="text">Suggest healthy lifestyle Daily routine</h4>
+        <!-- <span class="icon material-symbols-rounded">explore</span> -->
+      </li>
+      <li class="suggestion">
+        <h4 class="text">Make me healthy  &nbsp;&nbsp;&nbsp;</h4>
+        <!-- <span class="icon material-symbols-rounded">code</span> -->
+      </li>
+    </ul>
+  </header>
+
+  <!-- Chat List / Container -->
+  <div class="chat-list"></div>
+
+  <!-- Typing Area -->
+  <div class="typing-area">
+    <form action="#" class="typing-form">
+      <div class="input-wrapper">
+        <input type="text" placeholder="Enter a prompt here" class="typing-input" required />
+        <button id="send-message-button" class="icon material-symbols-rounded">send</button>
+      </div>
+      <div class="action-buttons">
+        <span id="theme-toggle-button" class="icon material-symbols-rounded">light_mode</span>
+        <span id="delete-chat-button" class="icon material-symbols-rounded">delete</span>
+      </div>
+    </form>
+    <p class="disclaimer-text">
+      The chatbot reprsented by TEAM HUGS FOR BUGS.
+    </p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
